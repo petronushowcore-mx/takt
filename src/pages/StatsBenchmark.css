@@ -1,0 +1,33 @@
+.benchmark-progress { margin-bottom: 18px; }
+.benchmark-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+}
+.benchmark-heading h2 { margin: 0; }
+.benchmark-heading p { margin: 6px 0 0; }
+.benchmark-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 18px 0 6px;
+}
+.benchmark-summary > div {
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-raised);
+}
+.benchmark-summary dt { margin-bottom: 4px; color: var(--muted-text); font-size: 12px; }
+.benchmark-summary dd { margin: 0; font-weight: 650; font-variant-numeric: tabular-nums; }
+.benchmark-summary .benchmark-detail { margin-top: 4px; color: var(--muted-text); font-size: 12px; font-weight: 400; }
+.benchmark-progress caption { padding: 10px 12px 0; color: var(--muted-text); text-align: left; }
+.benchmark-action { margin-top: 14px; }
+.benchmark-action p { margin: 0; }
+.benchmark-empty { margin: 16px 0 0; }
+
+@media (max-width: 640px) {
+  .benchmark-summary { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,33 @@
+appId: app.klavish.desktop
+productName: 'takt..'
+copyright: Copyright © 2026
+directories:
+  output: packages
+files:
+  - dist/**
+  - electron/**
+  - build/icon.png
+  - package.json
+extraResources:
+  - from: LICENSE
+    to: LICENSE.takt.txt
+  - from: CREDITS.md
+    to: CREDITS.takt.md
+  - from: docs/third-party-notices.txt
+    to: THIRD-PARTY-NOTICES.takt.txt
+asar: true
+win:
+  target: nsis
+  icon: build/icon.ico
+  executableName: takt
+  artifactName: takt-Setup-${version}-${arch}.${ext}
+  requestedExecutionLevel: asInvoker
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: 'takt..'
+  uninstallDisplayName: 'takt..'
+publish: null

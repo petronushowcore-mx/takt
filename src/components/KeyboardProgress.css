@@ -1,0 +1,14 @@
+.keyboard-progress { display: grid; gap: 1rem; }
+.keyboard-progress .panel-header { align-items: flex-start; flex-wrap: wrap; gap: .75rem; }
+.keyboard-progress .panel-header p { margin-block: .3rem 0; }
+.keyboard-score-map { display: grid; gap: .25rem; overflow-x: auto; padding: .25rem 0; }
+.keyboard-score-row { display: flex; gap: .25rem; min-width: max-content; }
+.keyboard-score-key { display: grid; min-width: 1.8rem; overflow: hidden; border: 1px solid currentColor; border-radius: .25rem; font-family: ui-monospace, monospace; font-size: .85rem; text-align: center; }
+.keyboard-score-symbol { padding: .05rem .2rem; }
+.keyboard-score-symbol.unknown { opacity: .55; }
+.keyboard-score-symbol.low { background: #163c30; color: #baf5d6; }
+.keyboard-score-symbol.medium { background: #5a3c0b; color: #ffe39d; }
+.keyboard-score-symbol.high { background: #641f35; color: #ffd8de; }
+.keyboard-progress td small { display: block; font-size: .75rem; }
+.keyboard-progress caption { text-align: left; margin-bottom: .5rem; }
+.keyboard-progress td, .keyboard-progress th { white-space: nowrap; }
