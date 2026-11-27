@@ -6,4 +6,4 @@
 
 The Topological Waves theme adapts `EchoBackground` from the PETRONUS website.
 
-The app icon, game effects, and interface text were created for this project.
+The app icon adapts the [gold ring mark used by ECR-VP](https://petronus.eu/ecrvp-logo.png). The game effects and interface text were created for this project.
