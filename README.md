@@ -24,7 +24,7 @@ The interface is available in English, Russian, Spanish, French, German and Port
 - Filter your progress by 7 days, 30 days, or all time. See speed and accuracy charts for completed lessons, active practice time, recent sessions, slow keys, and an estimated trend once enough days have been sampled.
 - The keyboard heatmap covers letters, numbers, punctuation, and shifted characters. Each row shows attempts, mistypes, and the characters you tend to press instead.
 - Compare two consecutive 30-day periods. The table shows sample sizes and keeps ordinary practice and Hardcore results separate. A symbol needs at least 10 attempts in each window to show a change in error rate.
-- Set your profile name, interface language, typing layout, lesson length, key sounds, keyboard guidance, and theme. Choose Dark or the yellow Topological Waves theme. Reset training history and keep your name and settings.
+- Set your profile name, interface language, typing layout, lesson length, key sounds, keyboard guidance, and theme. Choose Dark or Topological Waves, which uses **Topological Echo**, the signature visual scheme of Navigational Cybernetics. Reset training history and keep your name and settings.
 
 ## Run locally
 
